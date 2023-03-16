@@ -1,4 +1,4 @@
-# VariantPeptideIdentification
+# Variant Peptide Identification
 Code related to the "Retention time and fragmentation predictors increase confidence in variant peptide identification" publication: ...
 
 ### Requirements and Usage
@@ -17,7 +17,7 @@ A proteomic dataset (provided by Wang et al. [1]) with MS/MS spectra from 3 samp
 + Ensembl including isoforms (Ensembl_reference)
 - Ensembl including isoforms and products of common genetic variants (extendedDB)
 
-The exports contain a line per PSM/peptide with all relevant identifiers, features used for statistical evaluation, and confidence metrics. 
+The exports contain a line per PSM/peptide with all relevant identifiers, features used for statistical evaluation, and confidence metrics.  
 More detailed description of the columns of the exports are available at ...
 
 The 4 used protein sequence databases are also included in the suppementary data.
