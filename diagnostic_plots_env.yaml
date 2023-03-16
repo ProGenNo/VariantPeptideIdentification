@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - matplotlib-venn
