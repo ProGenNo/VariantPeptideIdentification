@@ -1,0 +1,19 @@
+column_name	description
+PSMId	unique identifier of a peptide-to-spectrum match
+SpectrumTitle	identifier of the matched spectrum (provided by the dataset)
+SpectrumFilename	filename of the rawfile containing the matched spectrum
+Proteins	accession identifiers of the matched protein sequences
+Position	positions of the matched peptide within the respective protein
+Sequence	amino acid sequence of the matched peptide
+SequenceWithMods	amino acid sequence of the matched peptide with possible modifications
+psm_type	type of the matched peptide canonical/decoy/contaminant/variant
+Decoy	1/-1 for target/decoy hits
+measured_rt	measured retention time (provided by the dataset)
+predicted_rt	predicted retention time
+engine_score	score of X!Tandem for this PSM
+benchmark_aggreg_score	Percolator's score when provided with the standard set of features
+benchmark_aggreg_q-value	Percolator's q-value when provided with the standard set of features
+benchmark_aggreg_posterior_error_prob	Percolator's posterior error probability when provided with the standard set of features
+extra_features_aggreg_score	Percolator's score when provided with the extended set of features
+extra_features_aggreg_q-value	Percolator's q-value when provided with the extended set of features
+extra_features_aggreg_posterior_error_prob	Percolator's posterior error probability when provided with the extended set of features
