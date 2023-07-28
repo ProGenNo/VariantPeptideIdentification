@@ -4,7 +4,7 @@ Code related to the "Retention time and fragmentation predictors increase confid
 ### Requirements and Usage
 Required software to reproduce the figures in the paper are **Snakemake** and **conda**, other required python libraries are specified at *diagnostic_plots_env.yaml* and the corresponding environment is automatically created by Snakemake.
 
-* Download supplementary data from: ...
+* Download supplementary data from: https://doi.org/10.6084/m9.figshare.22354666.v1
 - Clone this repository
 + Adjust the paths to the data in Snakefile if necessary
 - Create diagnostic plots by executing `snakemake --cores <# cores> --use-conda`
@@ -18,7 +18,7 @@ A proteomic dataset (provided by Wang et al. [1]) with MS/MS spectra from 3 samp
 - Ensembl including isoforms and products of common genetic variants (extendedDB)
 
 The exports contain a line per PSM/peptide with all relevant identifiers, features used for statistical evaluation, and confidence metrics.  
-More detailed description of the columns of the exports are available at ...
+More detailed description of the columns of the exports are available at *exports_documentation.txt* and Table 2 and 3 of the publication. 
 
 The 4 used protein sequence databases are also included in the suppementary data.
 
